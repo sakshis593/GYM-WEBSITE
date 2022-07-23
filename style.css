@@ -1,0 +1,94 @@
+body{
+    font-family: 'Edu QLD Beginner', cursive;
+    margin:0px;
+    padding:0px;
+    background: url('../image/bag.jpg');
+    background-size: cover;
+    color: white;
+}
+.left{
+    position:absolute;
+    left:45px;
+    top:20px;
+    display: inline-block;
+    border:none;
+}
+.left img{
+    left: 10px;
+    width: 150px;
+    filter:invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height: 20px;
+    font-size:20px;
+}
+.mid{
+    display:block;
+    width:35%;
+    margin:20px auto;
+    border:none;
+}
+.right{
+    position:absolute;
+    right:34px;
+    top:20px;
+    display: inline-block;
+    border:none;
+}
+.navbar{
+    display: inline-block;
+}    
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px 6px;   
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    font-family: 'Edu QLD Beginner', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color:white;
+    padding: 8px 10px;
+    border:2px solid grey;
+    border-radius: 5px;
+    font-size:15px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(44, 43, 43);
+}
+.container{
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid #fff;
+    margin:110px 30px;
+    padding:30px 30px;
+    width:25%;
+    border-radius: 5px;
+}
+.form-group input{
+    border-radius: 5px;
+    font-size:15px;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+    display:block;
+    width:200px;
+    padding:6px;
+    border:2px solid black;
+    margin:3px auto;
+    padding: 5px 5px;
+}
+.container button{
+    display:block;
+    width:212px;
+    margin:8px auto;
+}
